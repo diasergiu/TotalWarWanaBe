@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1433
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotalWarWanaBe.Domain", "TotalWarWanaBe.Domain\TotalWarWanaBe.Domain.csproj", "{8EFC43C1-0BD5-4617-948F-E0E7A0816D8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotalWarWanaBe.DAL", "TotalWarWanaBe.DAL\TotalWarWanaBe.DAL.csproj", "{EBF17114-562A-4D5D-B54B-0EE3483BFAD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotalWarWanaBe.Services", "TotalWarWanaBe.Services\TotalWarWanaBe.Services.csproj", "{1257C925-FACE-442E-8909-F010A99A686E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotalWarWanaBe.Web", "TotalWarWanaBe.Web\TotalWarWanaBe.Web.csproj", "{D8792A8E-11CD-41A1-A978-F15FA13A8E2F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EFC43C1-0BD5-4617-948F-E0E7A0816D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFC43C1-0BD5-4617-948F-E0E7A0816D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFC43C1-0BD5-4617-948F-E0E7A0816D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFC43C1-0BD5-4617-948F-E0E7A0816D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF17114-562A-4D5D-B54B-0EE3483BFAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF17114-562A-4D5D-B54B-0EE3483BFAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF17114-562A-4D5D-B54B-0EE3483BFAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF17114-562A-4D5D-B54B-0EE3483BFAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1257C925-FACE-442E-8909-F010A99A686E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1257C925-FACE-442E-8909-F010A99A686E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1257C925-FACE-442E-8909-F010A99A686E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1257C925-FACE-442E-8909-F010A99A686E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8792A8E-11CD-41A1-A978-F15FA13A8E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8792A8E-11CD-41A1-A978-F15FA13A8E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8792A8E-11CD-41A1-A978-F15FA13A8E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8792A8E-11CD-41A1-A978-F15FA13A8E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

@@ -1,0 +1,32 @@
+﻿@using TotalWarWanaBe.Domain.Entityes;
+@model IEnumerable<Faction>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <a asp-controller="Factions" asp-action="CreateFaction" class="btn btn-dark">Create Faction</a>
+        <table class="table table-responsive table-bordered">
+            <thead>
+                <tr>
+                    <td scope="col">Faction Name</td>
+                    <td scope="col">Faction Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(Faction faction in Model)
+            {
+                <tr>
+                    <td scope="col">@faction.FactionName</td>
+                    <td scope="col">@faction.FactionDescription</td>
+                    <td>@Html.ActionLink("EditFaction","EditFaction", "Factions",new {id = faction.IdFaction},null)<a asp-controller="Factions" asp-action="EditFaction" class="btn btn-success">Edit Faction</a></td>
+                    <td>@Html.ActionLink("DeleteFaction", "DeleteFaction", "Factions", new { id = faction.IdFaction }, null)<a asp-controller="Factions" asp-action="DeleteFaction" class="btn btn-danger">Delete Faction</a></td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
